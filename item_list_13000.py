@@ -77,6 +77,6 @@ for k in log_list:
     if int(k['item_cost']) < 13000:
         if k['item'] not in item_list:
             item_list.append(k['item'])
-            print(k['item'],k['item_cost'])
+            #print(f"{k['item']}: стоимость {k['item_cost']}")
 print(f'Список товаров дешевле 13000: {item_list}')
 
